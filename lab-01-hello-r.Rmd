@@ -5,7 +5,11 @@ date: "27/1/2021"
 output: html_document
 ---
 
+<<<<<<< HEAD
 University ID:2201001444 
+=======
+University ID: 
+>>>>>>> e0ec936e045b0e1fdf155fd87b4745229f0d6e1a
 
 ### Load packages
 
