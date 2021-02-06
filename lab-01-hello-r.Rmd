@@ -3,7 +3,7 @@ title: "Lab 01 - Hello R"
 author: " Alham khtim"
 date: "27/1/2021"
 output: html_document
----
+---dino_data %>% summarize(r = cor(x, y))
 
 <<<<<<< HEAD
 University ID:2201001444 
