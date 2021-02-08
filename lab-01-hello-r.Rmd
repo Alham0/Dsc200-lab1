@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - Hello R"
-author: " Alham khtim"
+author: " Alham khtim"220100144
 date: "27/1/2021"
 output: html_document
 ---dino_data %>% summarize(r = cor(x, y))
