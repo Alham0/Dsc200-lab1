@@ -207,6 +207,9 @@ library(datasauRus)</code></pre>
 <blockquote>
 <p>dino_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “dino”) ggplot(data = dino_data, mapping = aes(x = x, y = y)) + geom_point()</p>
 </blockquote>
+<blockquote>
+<p>dino_data %&gt;% summarize(r = cor(x, y))</p>
+</blockquote>
 </div>
 
 
