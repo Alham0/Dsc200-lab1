@@ -36,6 +36,11 @@ datasaurus_dozen %>% count(dataset) %>% print(13)
 >ggplot(data = star_data, mapping = aes(x = x, y = y)) + geom_point()
 
 
+>circle_data <- datasaurus_dozen %>% filter(dataset == "cicle")
+>ggplot(data = circie_data, mapping = aes(x = x, y = y)) + geom_point()
+
+
+
 
 
 
