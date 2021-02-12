@@ -39,6 +39,13 @@ datasaurus_dozen %>% count(dataset) %>% print(13)
 >circle_data <- datasaurus_dozen %>% filter(dataset == "cicle")
 >ggplot(data = circie_data, mapping = aes(x = x, y = y)) + geom_point()
 
+ 
+> ggplot(datasaurus_dozen, aes(x = x, y = y, color = dataset))+ geom_point()+
+facet_wrap(~ dataset, ncol = 3) +
+theme(legend.position = "none")
+
+>datasaurus_dozen %>% group_by(dataset) %>% summarize(r = cor(x, y)) %>% print(13)
+
 
 
 
