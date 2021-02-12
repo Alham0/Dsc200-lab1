@@ -192,7 +192,7 @@ summary {
 
 
 <hr />
-<p>title: “Lab 01 - Hello R” author: &quot; Alham khtim&quot; date: “27/1/2021” output: html_document —dino_data %&gt;% summarize(r = cor(x, y))</p>
+<p>title: “Lab 01 - Hello R” author: &quot; Alham khtim“220100144 date:”27/1/2021&quot; output: html_document —dino_data %&gt;% summarize(r = cor(x, y))</p>
 <p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD University ID:2201001444 ======= University ID: &gt;&gt;&gt;&gt;&gt;&gt;&gt; e0ec936e045b0e1fdf155fd87b4745229f0d6e1a</p>
 <div id="load-packages" class="section level3">
 <h3>Load packages</h3>
@@ -201,7 +201,12 @@ library(datasauRus)</code></pre>
 </div>
 <div id="lab-exercise" class="section level3">
 <h3>Lab Exercise</h3>
-<p>(Type your answer to the Exercise here. Remember to include the code, you need to put the code between three backticks followed by the following line on top of the code {r load-packages, message=FALSE}. See ‘Load Packages’ above as an example. Delete everything in these brackets after typing your answer.)</p>
+<blockquote>
+<p>library(tidyverse) library(datasauRus) head(datasaurus_dozen) summary(datasaurus_dozen) View(datasaurus_dozen) datasaurus_dozen %&gt;% count(dataset) %&gt;% print(13)</p>
+</blockquote>
+<blockquote>
+<p>dino_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “dino”) ggplot(data = dino_data, mapping = aes(x = x, y = y)) + geom_point()</p>
+</blockquote>
 </div>
 
 
